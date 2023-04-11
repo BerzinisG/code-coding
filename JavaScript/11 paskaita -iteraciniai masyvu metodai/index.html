@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/main.js" defer></script>
+  <title>iteraciniai metodai, destrektūrizavimas ir sąlygos(advance)</title>
+
+</head>
+<body>
+  <main>
+    <section id="forEach">
+      <h1>forEach</h1>
+      <h3>Syntax:</h3>
+      <p>
+        forEach((element)=>{veiksmai...})
+        forEach((element,i)=>{veiksmai...})
+        forEach((element,i,array)=>{veiksmai...})
+      </p>
+      <p>
+        forEach metodas - suka masyva per visą masyvą ir kiekvienors iteracijos metu atlieka kažkokius veiksmus su tos masyvo elementu(masyvas[i])
+        foreach negali gražinti reikšmės(neturi RETURN)
+      </p>
+    </section>
+    <section id="filter">
+      <h1>Filter</h1>
+      <h3>Syntax:</h3>
+      <p>
+        filter((element)=>{veiksmai...})
+        filter((element,i)=>{veiksmai...})
+        filter((element,i,array)=>{veiksmai...})
+      </p>
+      <p>
+        filter-metodas - suka ciklą per masyva ir kiekvienos iteracijos metu tikrina ar masyvo elementas tenkina sąlygą. Jeigu sąlyga tenkina - jis yra grąžinamas, jeigu ne - negrąžinamas.
+      </p>
+    </section>
+    <section id="map">
+      <h1>map</h1>
+      <h3>Syntax:</h3>
+      <p>
+        map((element)=>{veiksmai...})
+        map((element,i)=>{veiksmai...})
+        map((element,i,array)=>{veiksmai...})
+      </p>
+      <p>
+        map  metodas - suka ciklą per masyva jis kažkurį masyvo elementą pakeičia kitokiu ir grąžina pakitusius duomenis.
+      </p>
+    </section>
+    <section id="reduce">
+      <h1>Readuce</h1>
+      <h3>syntax:</h3>
+      <p>
+        reduce((accumulator,currentValue)=>{veiksmai...})
+        reduce((accumulator,currentValue)=>{veiksmai...})
+        reduce((accumulator,currentValue,i)=>{veiksmai...})
+
+        reduce((accumulator,currentValue,i)=>{veiksmai...}, initalValue)
+        reduce((accumulator,currentValue,i,array)=>{veiksmai...}, initalValue)
+        reduce((accumulator,currentValue,i,array)=>{veiksmai...}, initalValue)
+      </p>
+      <p>
+        reduce metodas- suka ciklą per visa masyvą ir kiekvienos iteracijos metu su akumuliatoriaus(acumulator- reikšmė, kurią gražino buvęs ciklas), atlieka kažkokį veiksmą naudodamas šios iteracijos maasyvo elementą(currentValue).
+        Metodo gale gražina vieną reikšmę(apjungtą visų masyvų elementų rezultatą).
+        jeigu nurodyta pradinė reikšmė (initalValue), tuomet pirmjo ciklo metu yra atliekami veiksmai su pradine reikšme ir pirmuoju masyvo elemntu.
+        jeigu nėra nurodyta pradinė reikšmė, tuomet pimosios iteracijos metu yra atliekami veiksmai su pirmąja reikšme masyvo reikšme ir antrąja masyvo reikšme.
+      </p>
+    </section>
+    <section id="reduceRight">
+      <p>
+      reduceRight - suka ciklą nuo masyvo galo.
+      </p>
+
+    </section>
+    <section id="flatMap">
+      <p>
+        apjunktas flat(1) ir map metodai į vieną. netui galimybės keisti flat'o gyli.
+      </p>
+    </section>
+    <section id="Some">
+      <h3>Syntax:</h3>
+      <p>
+        Some((element)=>{veiksmai...})
+        Some((element,i)=>{veiksmai...})
+        Some((element,i,array)=>{veiksmai...})
+      </p>
+      <p>
+         Some metodas - suka ciklą per masyva ir tikrina ar bent vienas iteracijos elementas atitinka nurodytą salygą, jeigu bent 1 atitinka gražina (true), kitu atveju (false)
+      </p> 
+    </section>
+    <section id="every">
+      <h3>Syntax:</h3>
+      <p>
+        every((element)=>{veiksmai...})
+        every((element,i)=>{veiksmai...})
+        every((element,i,array)=>{veiksmai...})
+      </p>
+      <p>
+         Some metodas - suka ciklą per masyva ir tikrina kiekvienos iteracijos metu tikrina ar kiekvienas masyvo elementas nurodytą sąlygą. ir grąžina (true), jei bent 1 elmentas neatitinka sąlygos , grąžina (false).
+      </p> 
+    </section>
+    <section id="find">
+      <p>
+        find metodas - suka ciklą per masyva ir tikrina kiekvienos iteracijos metu tikrina ar iteracijos masyvo elementas atitinka nurodoma sąlygą. ir jeigu iteracijos masyvo elementas atitinka sąlygą, gražina elementą.
+        jei neatitinka juda prie kitos iteracijos.
+        jeigu po viso masyvo iteracijų nėra randamas gražina - undefined
+      </p>
+    </section>
+    <section id="findlast">
+      <p>
+        findLast metodas - suka ciklą kaip 'find' tik nuo galo i prieki
+    </section>
+    <section id="findIndex">
+      <p>
+        findIndex metodas - suka ciklą per masyva ir tikrina kiekvienos iteracijos metu tikrina ar iteracijos masyvo elementas atitinka nurodoma sąlygą. ir jeigu iteracijos masyvo elementas atitinka sąlygą, gražina elemento indeksą.
+        jei neatitinka juda prie kitos iteracijos.
+        jeigu po viso masyvo iteracijų nėra randamas gražina - 1
+      </p>
+    </section>
+    <section id="findLasindex">
+      <p>
+        findLastIndex metodas - atlieka tą patį ka ir findIndex tik nuo kito galo.
+      </p>
+    </section>
+    <section id="imantriosSalygos">
+      <h1>ternary( ? : )</h1>
+      <h1>Logical AND(&&)</h1>
+      <p>
+        užrašymo būdas be if'o, o už salygos rašomas &&-simboliai, true atvejis.
+      </p>
+    </section>
+    <section id="destrukturizavimas">
+      
+    </section>
+  
+  </main>
+</body>
+</html>

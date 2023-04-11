@@ -1,0 +1,10 @@
+.kortele{
+  width: 300px;
+  height: 400px;
+}
+.remeliai{
+  border: 1px, solid black;
+}
+.redbg{
+  background-color: blueviolet;
+}

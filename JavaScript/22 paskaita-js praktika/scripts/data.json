@@ -1,0 +1,143 @@
+{
+  "Straw_hats": [
+    {
+      "name": "Monkey D. Luffy",
+      "occupation":"Captain",      
+      "age": 19,
+      "birthday": "May 5th",
+      "height": "174cm",
+      "bounty": "3,000,000,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png",
+      "DevilFruit": true,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+
+    },
+    {
+      "name": "Roronoa Zoro",
+      "occupation": "Swordsman",      
+      "age": 21,
+      "birthday": "November 11th",
+      "height": "181cm",
+      "bounty": "1,111,000,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/5/52/Roronoa_Zoro_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit":false,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+     
+    },
+    {
+      "name": "Cat Burglar Nami",
+      "occupation": "navigator",      
+      "age": 20,
+      "birthday": "July 3rd",
+      "height": "170cm",
+      "bounty": "366,000,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nami_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit":true,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+      
+    },
+    {
+      "name": "God Usopp",
+      "occupation": "sniper",
+      "age": 19,
+      "birthday": "April 1st",
+      "height": "176cm",
+      "bounty": "500,000,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/3/35/Usopp_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit":false,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+      
+    },
+    {
+      "name": "Black Leg Sanji",
+      "occupation": "cook",      
+      "age": 21,
+      "birthday": "March 2nd",
+      "height": "180cm",
+      "bounty": "1032000000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/b6/Sanji_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit":false,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+      
+    },
+    {
+      "name": "Tony Tony Chopper",
+      "occupation": "doctor",      
+      "age": 17,
+      "birthday": "December 24th",
+      "height": "90cm",
+      "bounty": "1,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/a/af/Tony_Tony_Chopper_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit":true,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+      
+    },
+    {
+      "name": "Nico Robin",
+      "occupation": "archaeologist",
+      "age": 30,
+      "birthday": "February 6th",
+      "height": "188cm",
+      "bounty": "930,000,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Nico_Robin_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit": true,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+    
+    },
+    {
+      "name": "Iron Man Franky",
+      "occupation": "shipwright",
+      "age": "36",
+      "birthday": "March 9th",
+      "height": "240cm",
+      "bounty": "394,000,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Franky_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit":false,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+
+
+      
+    },
+    {
+      "name": "Soul King Brook",
+      "occupation": "musician",      
+      "age": 90,
+      "birthday": "April 3rd",
+      "height": "277cm",
+      "bounty": "383,000,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/4/41/Brook_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit":true,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+
+      
+    },
+    {
+      "name": "Knight of the Sea Jinbe",
+      "occupation": "helmsman",
+      "age": "40",
+      "birthday": "April 2nd",
+      "height": "301cm",
+      "bounty": "1,100,000,000",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/8/81/Jinbe_Anime_Infobox.png",
+      "devilFruit":false,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+
+
+      
+    },
+    {
+      "name": "Nefertari Vivi",
+      "occupation": "Princess of Arabasta",
+      "age": 18,
+      "birthday": "February 2nd",
+      "height": "169cm",
+      "bounty": "NaN",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/0/09/Nefertari_Vivi_Anime_Post_Timeskip_Infobox.png",
+      "devilFruit":false,
+      "berry": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Berrysymbol.svg/142px-Berrysymbol.svg.png"
+
+
+      
+    }
+  ]
+}

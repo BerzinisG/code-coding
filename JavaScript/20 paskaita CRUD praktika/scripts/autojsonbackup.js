@@ -1,0 +1,55 @@
+{
+  "auto": [
+{
+"make": "Bmw",
+"model": 3,
+"bodyType": "Sedan",
+"fuelType": "Petrol",
+"yearOfProduction": "1990-2000",
+"modelNo": "e36",
+"power": "193Hp",
+"image": "https://www.auto-data.net/images/f57/BMW-3-Series-Sedan-E36_thumb.jpg",
+"id": 1
+},{
+"make": "Bmw",
+"model": 4,
+"bodyType": "Coupe",
+"fuelType": "Petrol",
+"yearOfProduction": "1999-2003",
+"modelNo": "f32",
+"power": "326Hp",
+"image": "https://www.auto-data.net/images/f4/bmw-4er-coupe-f32-lci-facelift-2017_thumb.jpg",
+"id": 2
+},{
+  "make": "Bmw",
+  "model": 5,
+  "bodyType": "Touring",
+  "fuelType": "Diesel",
+  "yearOfProduction": "1998-2000",
+  "modelNo": "e39",
+  "power": "181Hp",
+  "image": "https://www.auto-data.net/images/f127/BMW-5-Series-Touring-E39_thumb.jpg",
+  "id": 3
+  },{
+    "make": "Bmw",
+    "model": 7,
+    "bodyType": "Sedan",
+    "fuelType": "Petrol",
+    "yearOfProduction": "1994-1998",
+    "modelNo": "e38",
+    "power": "321Hp",
+    "image": "https://www.auto-data.net/images/f100/BMW-7-Series-E38_thumb.jpg",
+    "id": 4
+    },{
+      "make": "Bmw",
+      "model": 8,
+      "bodyType": "Coupe",
+      "fuelType": "Petrol",
+      "yearOfProduction": "1989-1992",
+      "modelNo": "e31",
+      "power": "380Hp",
+      "image": "https://www.auto-data.net/images/f52/BMW-8-Series-E31_thumb.jpg",
+      "id": 5
+      }
+]
+}

@@ -1,0 +1,51 @@
+.raudonasTektas{
+    color: red;
+}
+.didelisTekstas{
+    font-size: 4rem;
+}
+.centruotasTekstas{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.kortele1{
+    background-color: rgb(169, 200, 190);
+    border: 1px solid black;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+}
+.gap1{
+    gap: 5px;
+}
+.gap2{
+    gap: 10px;
+}
+.kortele1 > h3{
+    text-align: center;
+    color: brown;
+    
+}
+.kortele1 > img{
+    width: 300px;
+    height: auto;
+}
+.kortele1 > p{
+    text-align: justifys;
+
+}
+.spoiler{
+    display: flex;
+    gap: 20px;
+}
+section{
+    
+}

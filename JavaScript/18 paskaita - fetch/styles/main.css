@@ -1,0 +1,28 @@
+.hide{
+  display: none;
+}
+#allPosts{
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.card{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.post > span{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.post > h1{
+  text-align: center;
+}
+.post > p{
+  text-align: justify;
+}

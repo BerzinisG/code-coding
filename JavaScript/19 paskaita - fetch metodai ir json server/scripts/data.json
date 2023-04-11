@@ -1,0 +1,66 @@
+{
+  "zmones": [
+    {
+      "id": 1,
+      "vardas": "Rokas",
+      "pavarde": "Banaitis",
+      "amzius": 26,
+      "vedes": false,
+      "lytis": "vyras",
+      "profileImage": "https://e0.pxfuel.com/wallpapers/396/216/desktop-wallpaper-zoro-art-organism.jpg"
+    },
+    {
+      "id": 2,
+      "vardas": "Jonas",
+      "pavarde": "Jonaitis",
+      "amzius": 16,
+      "vedes": false,
+      "lytis": "vyras",
+      "profileImage": "https://e0.pxfuel.com/wallpapers/396/216/desktop-wallpaper-zoro-art-organism.jpg"
+    },
+    {
+      "id": 3,
+      "vardas": "Onutė",
+      "pavarde": "Bičkauskaitė",
+      "amzius": 36,
+      "vedes": true,
+      "lytis": "moteris",
+      "profileImage": "https://e0.pxfuel.com/wallpapers/396/216/desktop-wallpaper-zoro-art-organism.jpg"
+    },
+    {
+      "vardas": "as",
+      "pavarde": "tu",
+      "amzius": 25,
+      "vedes": false,
+      "lytis": "vyras",
+      "profileImage": "",
+      "id": 4
+    },
+    {
+      "vardas": "as",
+      "pavarde": "tu",
+      "amzius": 25,
+      "vedes": false,
+      "lytis": "vyras",
+      "profileImage": "",
+      "id": 5
+    }
+  ],
+  "automobiliai": [
+    {
+      "marke": "Audi",
+      "modelis": "TT",
+      "gamybosMetai": 2010
+    },
+    {
+      "marke": "BMW",
+      "modelis": "6",
+      "gamybosMetai": 2020
+    },
+    {
+      "marke": "Fiat",
+      "modelis": "Punto",
+      "gamybosMetai": 2001
+    }
+  ]
+}

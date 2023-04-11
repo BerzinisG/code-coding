@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./scripts/main.js" defer></script>
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <main>
+      <section id="pirmaForma">
+        <h1>Pirmoji forma- test</h1>
+        <form action="">
+          <div>
+            <label for="vardas"></label>
+            <input type="text" name="vardas" id="vardas" />
+          </div>
+          <div>
+            <label for="pavarde"></label>
+            <input type="text" name="pavarde" id="pavarde" />
+          </div>
+          <input type="submit" value="skaičiuoti" />
+        </form>
+        <h3 id="pirmosFormosAts">Jūsų vardo ilgis yra : <span>0</span> raidžių ilgio</h3>
+      </section>
+      <section>
+        <h1>Matematika</h1>
+        <h3>Sudetis</h3>
+        <form id="sudetiesForma">
+          <input 
+          type="number" 
+          name="pirmasSudetiesDomuo" 
+          id="pirmasSudetiesDomuo"
+          placeholder="pirmasDomuo...">
+          <span>+</span>
+          <input 
+          type="number" 
+          name="antrasSudetiesDomuo" 
+          id="antrasSudetiesDomuo"
+          placeholder="antrasDomuo...">
+          <input type="submit" value="=">
+          <span id="sudetiesAts"></span>
+
+        </form>
+      </section>
+      <section id="No1">
+        <form id="aritVeiksmas">
+          <input 
+          type="number"  
+          name="No1Domuo"
+          id="No1Dalmuo"
+          placeholder="No1Domuo...">
+          <select name="aritmetika" id="aritmetika">
+              <option value="">--Please choose an option--</option>
+              <option value="suma">Suma</option>
+              <option value="atimtis">Atimtis</option>
+              <option value="daugyba">Daugyba</option>
+              <option value="dalyba">Dalyba</option>
+              <option value="laipsnioKelimas">Kėlimas laipsniu</option>
+              <option value="sakniesTraukimas">Šaknies traukimas</option>
+          </select>
+          <input 
+          type="number" 
+          name="No2Domuo" 
+          id="No2Domuo"
+          placeholder="No2Domuo...">
+          <input type="submit" value="=">
+          <span id="atsakymas"></span>
+
+        </form>
+
+      </section>
+      <section>
+        <form id="tavoAmzius">
+          <input type="number" name="amzius" id="amzius" placeholder="Įveskite savo amžių:">
+          <h1 id="kaina"></h1>
+          <input type="submit" value="Skaičiuoti">
+        </form>
+      </section>
+      <section id="kariuomene">
+        <form id=""></form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "asmenys": [
+    {
+      "id": 1,
+      "vardas": "Rokas",
+      "pavarde": "Banaitis"
+    },
+    {
+      "id": 2,
+      "vardas": "Rokas0",
+      "pavarde": "Banaitis0"
+    },
+    {
+      "id": 3,
+      "vardas": "Rokas1",
+      "pavarde": "Banaitis1"
+    },
+    {
+      "vardas": "Rokas2as",
+      "pavarde": "Banaitis2as",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,200;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  background-color: rgb(169, 159, 159);
+}
+#allCars{
+  font-family: Josefin Sans;
+  width: 250px; 
+  margin: 15px;
+  display: flex;
+  gap: 30px;
+}
+.card img {
+  width: 150px;
+  object-fit: cover;
+}
+.card{
+  background-color:rgb(160, 229, 179);
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5%;
+ 
+}
+.card button{
+  background-color: rgb(148, 232, 172);;
+  border: 3px solid rgb(143, 202, 160);
+  padding: 5px;
+  border-radius: 15px;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-weight: 600;
+}
+.card button:hover{
+  background-color: aqua;
+}

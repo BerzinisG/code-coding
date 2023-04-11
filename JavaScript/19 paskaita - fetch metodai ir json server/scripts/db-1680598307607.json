@@ -1,0 +1,39 @@
+{
+  "zmones": [
+    {
+      "vardas": "Rokas",
+      "pavarde": "Banaitis",
+      "amzius": 26,
+      "vedes": false
+    },
+    {
+      "vardas": "Petras",
+      "pavarde": "Petrauskas",
+      "amzius": 55,
+      "vedes": true
+    },
+    {
+      "vardas": "Jonas",
+      "pavarde": "Jonukauskas",
+      "amzius": 5,
+      "vedes": true
+    }
+  ],
+  "automobiliai": [
+    {
+      "marke": "Audi",
+      "modelis": "TT",
+      "gamybosMetai": 2010
+    },
+    {
+      "marke": "BMW",
+      "modelis": "6",
+      "gamybosMetai": 2020
+    },
+    {
+      "marke": "Fiat",
+      "modelis": "Punto",
+      "gamybosMetai": 2001
+    }
+  ]
+}
